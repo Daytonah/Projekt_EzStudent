@@ -272,7 +272,6 @@ class _CameraState extends State<Camera> {
     _toastInfo(result.toString());
   }
 
-  //TODO: do usuniecia przed prezentacja
   _toastInfo(String info) {
     Fluttertoast.showToast(msg: info, toastLength: Toast.LENGTH_LONG);
   }
